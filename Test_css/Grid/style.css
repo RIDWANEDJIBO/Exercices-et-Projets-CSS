@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.grid-content{
+    width:100%;
+    height: 600px;
+    background-color: #747070;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 150px)); 
+    grid-template-rows: repeat(2, 150px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+.gird-item{
+
+}
+
+.item1{
+    background-color:blue ; 
+    
+}
+.item2{
+    background-color:red;
+}
+.item3{
+    background-color:green;
+
+}
+.item4{
+    background-color:brown;
+}
+.item5{
+    background-color:yellow;
+}
+.item6{
+    background-color:pink;
+}

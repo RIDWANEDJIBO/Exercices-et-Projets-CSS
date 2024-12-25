@@ -1,0 +1,16 @@
+.box{
+    width: 180px;
+    height: 180px;
+    clip-path: circle();
+    background-color: antiquewhite;
+    background: -50px url(spirites.png) ;
+    margin: 10px;
+}
+
+.box2{
+    background-position: -350px;
+}
+
+.box3{
+    background-position: -650px;
+}
